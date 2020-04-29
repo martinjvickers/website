@@ -19,3 +19,13 @@ body {
   width: 100%;
   background-color: #f5f5f5;
 }
+
+.img-fluid-75 {
+  max-width: 75%;
+  height: auto;
+}
+
+.img-fluid-50 {
+  max-width: 50%;
+  height: auto;
+}

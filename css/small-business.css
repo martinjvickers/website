@@ -13,9 +13,35 @@ body {
   padding-top: 56px;
 }
 
+p {
+  text-align: justify;
+}
+
 .footer {
   position: absolute;
   bottom: 0;
   width: 100%;
   background-color: #f5f5f5;
+}
+
+.img-fluid-75 {
+  max-width: 75%;
+  height: auto;
+}
+
+.img-fluid-50 {
+  max-width: 50%;
+  height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .img-fluid-75 {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .img-fluid-50 {
+    max-width: 100%;
+    height: auto;
+  }
 }
